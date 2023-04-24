@@ -1,0 +1,298 @@
+body{
+    background-color:#fefff3; 
+	font-family:  "Lucida Sans", sans-serif;
+}
+
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+}
+
+.container2{
+	margin-top:30px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+text-align:center;
+}
+
+.container img{
+    width:450px;
+    height:200px;
+}
+
+.intro{
+    text-align: justify;
+    max-width:800px;
+	font-size:30px;
+}
+
+summary {
+  cursor: pointer;
+  font-size:25px;
+
+}
+
+details{
+	margin-top:30px;
+	text-align:justify;
+	max-width:550px;
+	font-size:30px;
+	transition: all 0.3s ease;
+}
+
+.cards{
+	display:flex;
+	flex-direction:row;
+gap:30px;
+}
+
+.card{
+	
+	width:250px;
+	height:450px;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:22px;
+	border-radius:30px;
+}
+
+.imagem{
+  transition: transform 0.2s ease-in-out;
+}
+
+.imagem:hover {
+  transform: scale(1.1);
+}
+
+.progress-container {
+  width: 100%;
+  height: 9px;
+  background-color:#fefff3;
+    position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.progress-bar {
+  height: 9px;
+  background:#FF00FF;
+  width: 0%;
+}
+
+
+
+.cont{
+	display:flex;
+	flex-direction:column;
+	gap:30px;
+}
+
+.fim{
+	text-align: justify;
+    max-width:700px;
+	font-size:24px;
+}
+
+
+a{
+	text-decoration:none;
+	color:#000;
+	
+}
+
+a:hover{
+color:#fff;
+}
+
+span{
+color:red;
+}
+
+.foto{
+	width:300px;
+	height:400px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	transition:2s;
+	border-radius:50px;
+}
+
+.foto:hover{
+	transform:scale(1.1);
+}
+
+
+.redes{
+	font-size:20px;
+}
+
+h1{
+	font-size:65px;
+}
+
+
+footer{
+    background-color:#3b3a40;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+	flex-direction:column;
+	gap:10px;
+    width: 100%;
+	margin-top:70px;
+	font-size:24px;
+	text-align:center;
+}
+.redess{
+font-size:30px;
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+gap:30px;
+
+}
+
+.inicial{
+background-color:#ff0000;
+width:150px;
+height:40px;
+border-radius:20px;
+position:absolute;
+top:5px;
+left:50px;	
+ box-shadow: 0.2em 0.2em;
+}
+
+.inicial:hover {
+  background: #942121;
+  text-decoration: none;
+}
+
+.inicial:Active{
+	  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+	
+}
+
+.rede{
+	transition:2s;
+}
+
+.redess .rede:hover{
+color:gray;
+
+}
+
+footer p{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:row;
+	gap:50px;
+	font-size:20px;
+}
+
+/*dark mode*/
+.modebtn{
+ width:70px;
+height:30px; 
+border-radius:50px;
+border:2.5px solid black;
+}
+
+
+
+.dark-mode {
+		background-color:#363636;
+		color:#fff;
+}
+.dark-mode .modebtn{
+	background-color:black;
+	color:black;
+}
+.dark-mode i{
+	color:#fff;
+}
+
+.dark-mode .f-c{
+	color:#fff;
+}
+
+.dark-mode .f-c:hover{
+	color:#555;
+}
+
+.dark-mode footer{
+	background-color:#1C1C1C;
+	color:#fff;
+}
+
+.dark-mode .inicial{
+	background-color:#2F4F4F;
+}
+
+.dark-mode .progress-container{
+	background-color:#363636;
+}
+
+.dark-mode .progress-bar{
+	background-color:#20B2AA;
+}
+
+/*responsividade*/
+@media only screen and (max-width: 620px) {
+  
+
+.intro{
+	font-size:15px;
+	padding-left:15px;
+	padding-right:15px;
+	
+}
+	
+.foto{
+width:200px;
+height:200px;
+}	
+	
+	.cardss{
+	display:flex;
+align-items:center;
+justify-content:center;
+	}
+	
+	
+.cards{
+display:flex;
+flex-direction:column;
+margin-top:20px;
+}
+.modebtn{
+	margin-top:30px;
+}
+
+footer p{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+}
+
+details{
+	font-size:18px;
+	text-align:justify;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+}
+
+/*Por Evelyn Eggres e Marco Antônio*/

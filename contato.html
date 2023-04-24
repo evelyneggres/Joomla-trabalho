@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+	  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	 <link rel="shortcut icon" href="https://nti.ufabc.edu.br/images/tutoriais/joomla/joomla.png" type="image/x-icon">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Joomla</title>
+</head>
+<body>
+<div class="all"><a href="index.html"><button class="inicial">Voltar a página inicial</button></a>
+<div class="container2">
+
+<button class="modebtn" id="toggle-mode"><i class="fa fa-sun-o" aria-hidden="true"></i></button>
+<div class="cards">
+<!--card1-->
+<figure>
+	<img class="foto" id="evy" src="img/evelyn.jpeg" alt="Foto de Evelyn Eggres"></img> <figcaption class="redes"><br>
+	Evelyn Eggres <br>
+	<div class="redess">
+	<a class="rede" href="https://github.com/evelyneggres"> <i class="fa fa-github" aria-hidden="true"></i></a> <a class="rede" href="https://www.linkedin.com/in/evelyn-eggres-9041a1270"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+	</div>
+	</figcaption>
+				</figure>
+				
+				<!--card2-->
+				<figure>
+	<img class="foto" src="img/marco.JPG" alt="Foto de Marco Marchi"> <figcaption class="redes"><br>
+	Marco Marchi<br> <div class="redess">
+	<a class="rede" href="https://github.com/MarquinCss"> <i class="fa fa-github" aria-hidden="true"></i></a> <a class="rede" href="https://www.linkedin.com/in/marcoant%C3%B4niomarchicarreiro/"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+	</div>
+	</figcaption>
+				</figure>
+</div>
+</div>
+<!--
+<h1>Página em construção</h1>
+<div class="imagem">
+<img src="https://2.bp.blogspot.com/-EAp_fJntRdc/Unrq0a0Im3I/AAAAAAAA8IE/MLtC9-L-X30/s1600/2dilfrl.jpg"> </img>
+</div> -->
+<footer>
+    <div class="cont">
+    <p class="footer-conteudo"><a class="f-c" href="index.html">Página Inicial</a> <a href="redes.html" class="f-c" >Redes</a> <a class="f-c"  href="https://www.joomla.org/">Joomla! Oficial</a></a> <br></div>
+  &#169; 2023 Evelyn Eggres e Marco Marchi <br>
+  Todos os direitos reservados.
+
+</footer>
+</div>
+</div>
+   <script>
+        const toggleBtn = document.getElementById ("toggle-mode");
+const body = document.body
+
+toggleBtn.addEventListener('click', function () { 
+   
+   body.classList.toggle('dark-mode')
+} )
+</script>
+</body>
+<script>
+    AOS.init();
+  </script>
+</html>
